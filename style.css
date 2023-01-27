@@ -1,0 +1,6 @@
+.img-scale-down {
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down;
+    overflow: hidden;
+}
