@@ -57,3 +57,24 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
+/* 3boxes 200x200px
+    1st box 10 px border & 20px padding
+    2nd box 20px border
+    3rd box 10px border*/
+.top-container{
+   
+}
+.middle-container{
+    
+}
+.bottom-container{
+    
+}
+h1,h2{
+    color: #66BFBF;
+
+}
+
+/* Path: style.css */
+    
+
