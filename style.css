@@ -7,28 +7,47 @@ html {
 body {
     background-color: #E2F8F7;
     text-align: center; /*center elements that dont have specific width */
+    font-family: 'Merriweather', serif;
 }
 h1{
-    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size:5.625rem;
+    margin: 50px auto 0px auto ;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    text-decoration:none ;
 }
 .top-container{
     position: relative;
-}
-.middle-container{
-    
-}
-.bottom-container{
-    position: absolute;
     padding-top: 100px;
 }
 .top-cloud{
     position: absolute;
-    right: 300px;
+    right: 200px;
     top: 50px;
 }
 .bottom-cloud{
     position: absolute;
-    left: 300px;
+    left: 200px;
     bottom: 300px;
 
+}
+/* .green-shadow{
+    text-shadow: rgb(21, 180, 0) 1px 0 10px;
+} */
+ion-icon {
+    font-size: 64px;
 }
