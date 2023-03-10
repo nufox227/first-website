@@ -49,5 +49,23 @@ a{
     text-shadow: rgb(21, 180, 0) 1px 0 10px;
 } */
 ion-icon {
-    font-size: 64px;
+    font-size: 128px;
+}
+.skill-row{
+    /* display: inline; */
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.python-img{
+    float: left;
+    margin-right: 30px;
+}
+.code-img{
+    float: right;
+    margin-left: 30px;
+}
+.desc{
+    clear: right;
 }
