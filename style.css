@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #E2F8F7;
+    
     text-align: center;/* center elements that dont have specific width*/
     font-family: 'Merriweather', serif;
     margin: 0;
@@ -32,9 +32,16 @@ a{
     color: #11999E;
     text-decoration:none ;
 }
+hr{
+     border: dotted #EAF6F6 6px;
+     border-bottom: none;
+     width: 4%;
+     margin: 100px auto;
+}
 .top-container{
     position: relative;
     padding-top: 100px;
+    background-color: #E2F8F7;
 }
 .top-cloud{
     position: absolute;
